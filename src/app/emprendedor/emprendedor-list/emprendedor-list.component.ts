@@ -18,6 +18,7 @@ export class EmprendedorListComponent implements OnInit {
   getEmprendedores() {
     this.emprendedorService.getEmprendedores().subscribe((emprendedores) => {
       this.emprendedores = emprendedores;
+      
     })
   }
   
